@@ -43,7 +43,7 @@ h4 {
   float: left;
   color: #ffc01f;
   font-size: 17px;
-  margin: 5px 10px 1px 10px;
+  margin: 5px 10px 0px 0px;
 }
 
 ul {
@@ -60,7 +60,7 @@ li {
   background: #585858;
   float: left;
   padding: 10px;
-  padding-bottom: 85px;
+  padding-bottom: 86px;
   margin-top: 10px;
 }
 
@@ -75,6 +75,7 @@ li {
 
 [class*=col-lg-] {
   float: left;
+  margin: 0 auto;
 }
 
 .col-lg-1 {
@@ -87,19 +88,12 @@ li {
 
 .col-lg-3 {
   width: 235px;
-  display: inline-block;
-  float: left;
-  margin-top: 40px;
-  padding-right: 20px;
-}
-
-div.col-lg-3 figure {
-  width: 100%;
+  margin: 40px auto 10px;
 }
 
 div.col-lg-3 img {
   width: 100%;
-  height: 100%;
+  padding-right: 20px;
 }
 
 figure {
@@ -110,15 +104,11 @@ figure {
 }
 
 figcaption {
-  display: block;
-  float: left;
   position: absolute;
-  bottom: 0;
+  top: 685px;
   color: white;
-  width: 220px;
-  height: 50px;
-  padding: 10px;
-  margin: 0px 0px -35px 0px;
+  width: 215px;
+  padding: 5px 10px 10px;
   background: rgba(0, 0, 0, 0.5);
 }
 
@@ -126,7 +116,7 @@ figcaption {
   width: 100%;
   float: left;
   padding: 10px;
-  margin: 20px -10px -25px;
+  margin: 0px -10px -25px;
 }
 
 section {
